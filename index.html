@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>University of Wasit</title>
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/c.css" />
+
+</head>
+<body>
+<!-- header -->
+        <nav class="uk-navbar-container uk-margin-left uk-margin-right " uk-navbar >
+                <div class="uk-navbar-left ">
+                    <ul class="uk-navbar-nav">
+                        <li id="i">
+                                <a href="#"> 
+                                <img id="logo" src="assets/img/logo.png"> 
+                                <b  class="uk-visible@s" style="color:#22588f;"> &nbsp;  University of Wasit</b>
+                                </a>
+                        </li>  
+                    </ul>
+                </div>
+                <div class="uk-navbar-right ">
+                    <ul class="uk-navbar-nav" >
+                        <div id="auth" class="contaier " style="color: #22588f">
+                            <div class="element1 ">
+                                <li><a href="#" >Sign In</a></li>
+                            </div>
+                            <div class="vertical"></div>
+                             <div class="element2 ">
+                                <li>  <a href="#">  Sign Up</a></li>
+                              </div>
+                         </div>
+                    </ul>
+                </div>
+       </nav>
+       <nav class="uk-navbar-container  " uk-navbar uk-sticky="animation: uk-animation-slide-top; show-on-up: true" style=" height: 50px; background-color: #22588f;" >
+          <div class="uk-navbar-center uk-navbar-item  nav-overlay" id="navbar_collapse">
+            <div class=" uk-navbar-flip">
+              <ul class="uk-navbar-nav  co   uk-visible@s">
+                <li class=" uk-active" ><a  href="#">Home</a></li>
+                <li><a href="#">College<span uk-icon="icon: triangle-down"></span></a>
+                    <div class="uk-navbar-dropdown uk-margin-remove-top">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">College of Computer</a></li>
+                            <li><a href="#">College of Education</a></li>
+                            <li><a href="#"  style="letter-spacing:-0.5px;">College of Engineering</a></li>
+                        </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Best Project</a></li>
+                  <li><a href="#">Trining</a></li>
+                  <li><a href="#">News & Artical</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+            </div>
+          </div>
+
+          <div class="uk-navbar-right " >
+            <ul class="uk-navbar-nav  uk-hidden@s " >
+              <li><a style="padding-bottom: 28px" class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #mobile-navbar"></a></li>
+            </ul>
+          </div>
+        </nav>
+           
+        <div id="mobile-navbar"  uk-offcanvas="mode: slide; flip: false">
+        <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+        <li class="uk-text-center" style="padding: 0 0 25px 0;"><a href="#"><img src="assets/img/logo.png" alt="logo" width="64"></a></li>
+        <li><hr></li>
+        <li class="uk-text-center co" style="padding-top: 20px; ">
+                <ul class="uk-navbar-nav" >
+                <div class="contaier" style="color: black">
+                        <div class="element1 ">
+                        <li><a href="#" >Sign In</a></li>
+                        </div>
+                        <div class="vertical " ></div>
+                        <div class="element2 ">
+                        <li><a href="#">Sign Up</a></li>
+                        </div>
+                </div>
+                </ul>
+        </li>
+        <div id="na">
+                <li style="text-decoration: underline" ><a href="#">Home</a></li>
+                <li><a href="#">College</a></li>
+                <li><a href="#">Best Project</a></li>
+                <li><a href="#">Trining</a></li>
+                <li><a href="#">News & Artica</a></li>
+                <li><a href="#">About</a></li>
+        </div>
+        </ul>
+        </div>
+        </div>
+</div>
+<section class="uk-section  uk-margin-left uk-margin-right" >
+        <div class="columnContainer">
+                <div class="leftColumn uk-margin-large-top" >
+                        <div id="t">
+                        <span  style="letter-spacing: 1px;">
+                        <span style="font-size: 30px">C</span>an you join upload your project</span>
+                        <br>
+                        <span  >& use READ.ME to write ieda project</span>
+                        <br>
+                </div>
+                <button class="uk-button btn uk-button-default">&nbsp;  Join   &nbsp;   </button>  
+                </div>
+
+                <div class="middleColumn " >
+                <div class="container pa "  >
+                        <img width="450" src="assets/img/index.png">
+                </div>
+                </div>
+        </div>
+</section>
+
+               
+
+        <!-- UIkit JS -->
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    
+</body>
+</html>
