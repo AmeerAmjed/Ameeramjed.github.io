@@ -287,4 +287,8 @@ color: #ffffff
 } */
 
 
-
+  @media only screen and (max-width: 500px) {
+            body{
+                background:yellow;
+            }
+        }
