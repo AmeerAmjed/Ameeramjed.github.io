@@ -204,34 +204,8 @@ color: #ffffff
     border: 2px solid #fede50;
     color:#ffffff;
 }
-    
-@media only screen and (min-width: 220px) and (max-width: 880px) {
 
-  .columnContainer {
-      flex-direction: column ;
-  }
-
-  .leftColumn {
-      order: 2;
-      width: 100%;
-
-  }
-
-  .middleColumn {
-      order: 1;
-      width: 100%;
-
-  }
-
-  .rightColumn {
-      order: 3;
-  }
-
-}
-
-
-
-@media only screen and (max-width: 800px) and (min-width: 200px){
+@media only screen and (max-width: 800px) {
 
     .uk-margin-large-top {
         margin-top: 0 !important;
