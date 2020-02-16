@@ -205,7 +205,7 @@ color: #ffffff
     color:#ffffff;
 }
     
-@media (min-width: 220px) and (max-width: 880px) {
+@media only screen and (min-width: 220px) and (max-width: 880px) {
 
   .columnContainer {
       flex-direction: column ;
@@ -231,7 +231,7 @@ color: #ffffff
 
 
 
-@media all and (max-width: 800px) and (min-width: 200px){
+@media only screen and (max-width: 800px) and (min-width: 200px){
 
     .uk-margin-large-top {
         margin-top: 0 !important;
